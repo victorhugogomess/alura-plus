@@ -145,7 +145,7 @@ body{
 .lista__link{
     color: var(--cor-principal);
     text-decoration: none;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 .lista__link:hover{
@@ -153,7 +153,7 @@ body{
 }
 
 .lista__link:active{
-    color: darkred;
+    color: var(--cor-botao-ativo);
 }
 .rodape__texto{
     color: var(--cor-secundaria);
