@@ -1,0 +1,25 @@
+:root{
+    --cor-principal: #ffffff;
+    --cor-secundaria: #C0C0C0;
+    --cor-botao: #167Bf7;
+    --cor-de-fundo: #00030c;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-principal);
+}
+
+.principal{
+    background-image: url(imagens/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+}
